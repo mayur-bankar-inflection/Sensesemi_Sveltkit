@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%sveltekit.head%
+		
+		<title>Sensesemi Technologies Pvt Ltd</title>	
+        <meta name="description" content="A technology-enabled device that is the seamless integration of data points for a wide range of applications, Sensesemi allows you to record, store, and ...
+		" /> 
+        
+		<!-- All links starts -->
+		<link rel="icon" href="%sveltekit.assets%/websitlogo.png" />
+		<link href="/src/app.css" rel="stylesheet">
+
+		<!-- Include Font Awesome (CDN) -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+	    <!-- Include Tailwind CSS CDN -->
+		 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+		 <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+		 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet" />
+		 <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+         <!-- Poppins font family from google fonts -->
+		 <link href="https://fonts.googleapis.com/css2?family=Overpass&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet">
+		 <!-- animate css -->
+		 <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.min.css">
+		 <!-- All links ends -->
+
+         <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+		 <script>
+		  tailwind.config = {
+		  darkMode: "class",
+		  theme: {
+			fontFamily: {
+			  sans: ["Roboto", "sans-serif"],
+			  body: ["Roboto", "sans-serif"],
+			  mono: ["ui-monospace", "monospace"],
+			},
+		  },
+		  corePlugins: {
+		  preflight: false,
+		  },
+		};
+		 </script>
+	  
+		 
+	  <style>
+		  /* Smooth scrolling behavior for the entire page */
+		  html {
+			  scroll-behavior: smooth;
+		  }
+	  </style>
+
+	</head>
+	
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+
+    <!-- Script added for flowbite navbar -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script> 
+    <!-- Script added for twelements carousl -->
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+
+	</body>
+</html>
